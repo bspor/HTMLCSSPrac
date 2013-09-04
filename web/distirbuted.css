@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+.red {
+	color:red;
+}
+
+.yellow {
+	color:yellow;
+}
+
+.blue {
+	color:blue;
+}
+
+#wrapper {
+	 width:400px;
+	 margin-right:auto; 
+	 margin-left:auto; 
+	 border:1px solid #000;
+	 padding: 10px;
+}

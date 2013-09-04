@@ -1,0 +1,87 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>HTMLCSSPractice1</title>
+<style>
+            .red {
+                color:#00ff00;
+            }
+            #wrapper {
+                width:400px;
+                margin-right:auto; 
+                margin-left:auto; 
+                border:1px solid #000;
+                padding: 10px;
+            }
+        </style>
+</head>
+
+<body>
+	<div id="wrapper">
+	  <form name="form1" method="post" action="" >
+	    <p>
+	      <label for="firstName">First:</label>
+	      <input type="text" name="firstName" id="firstName">
+	    </p>
+	    <p>
+	      <label for="lastName">Last</label>
+	      <input style="color:#FF0000" type="text" name="lastName" id="lastName">
+	    </p>
+	    <p>&nbsp;</p>
+	    <p>Please select your favorite color!</p>
+	    <p>
+	      <label>
+	        <input style="color:red" type="radio" name="radioGroup" value="radio" id="radioGroup_0">
+          Red</label>
+	      <br>
+	      <label>
+	        <input style="color:yellow" type="radio" name="radioGroup" value="radio" id="radioGroup_1">
+	        Yellow</label>
+	      <br>
+	      <label>
+	        <input type="radio" name="radioGroup" value="radio" id="radioGroup_2">
+	        Blue</label>
+        </p>
+	    <p>What will you eat for supper tonight!<br>
+        </p>
+	    <p>
+	      <label>
+	        <input type="checkbox" name="checkboxGroup" value="checkbox" id="checkboxGroup_0">
+          Pizza</label>
+	      <br>
+	      <label>
+	        <input type="checkbox" name="checkboxGroup" value="checkbox" id="checkboxGroup_1">
+	        Burgers</label>
+	      <br>
+	      <label>
+	        <input type="checkbox" name="checkboxGroup" value="checkbox" id="checkboxGroup_2">
+	        Beer</label>
+	      <br>
+	    </p>
+	    <p>What time will you eat?</p>
+	    <p>
+	      <label for="dropMenu">Pick a Time!</label>
+	      <select name="dropMenu" id="dropMenu">
+	        <option>5 pm</option>
+	        <option>6 pm</option>
+	        <option>7 pm</option>
+          </select>
+	    </p>
+	    <p>Enter any comment you would like to say:</p>
+	    <p>
+	      <label>
+	        <textarea name="txtArea" id="txtArea" cols="45" rows="5"></textarea>
+          </label>
+	    </p>
+	    <p>
+	      <input type="submit" name="btnSubmit" id="btnSubmit" value="Submit" class="btn btn-primary">
+	    </p>
+	    <p>&nbsp;</p>
+      </form>
+    
+    </div>
+</body>
+</html>
+
+
